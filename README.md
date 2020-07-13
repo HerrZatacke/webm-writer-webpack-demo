@@ -1,2 +1,2 @@
-# reproduce bug in remotestorage.js
-[the possible bug](https://github.com/remotestorage/remotestorage.js/issues/1187)
+# Demonstration of webm-writer webpack issue
+[the issue](https://github.com/thenickdude/webm-writer-js/issues/16)
