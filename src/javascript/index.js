@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
   videoWriter.complete().then((webMBlob) => {
     const video = document.createElement('video');
     video.src = URL.createObjectURL(webMBlob);
-    video.loop = true;
-    video.play();
     document.querySelector('body').appendChild(video);
+    video.loop = true;
+    video.controls = true;
   });
 
 });
